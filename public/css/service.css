@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 62.5%;
+    color: #444;
+}
+section{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: rgba(240 ,234 ,234 ,0.42);
+    box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.219);
+    width: 800px;
+    border-radius: 4px;
+    display: flex;
+}
+.card_hero{
+    flex: 0 0 50%;
+    position: relative;
+}
+.card_img{
+    display: block;
+    width: 100%;
+}
+.card_middle{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card_middle-text{
+    background-color: #fff;
+    font-size: 13.5px;
+    font-weight: 400;
+    border-radius: 2px;
+    padding: 10px 22px;
+    box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.219);
+}
+.card_content{
+    flex: 1;
+    padding: 35px 35px 25px 35px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.card_info{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: auto;
+
+}
+.card_price{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+.card_address{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+.card_details{
+    font-size: 12.5px;
+    font-weight: 400;
+
+}
+.card_buttons{
+    width: 100%;
+
+
+    display: flex;
+    justify-content: flex-end;
+}
+.card_btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    color: teal;
+
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom .4s;
+}
+.card btn:hover{
+    border-bottom: 1px solid teal;
+}
+.card_btn:not(:last-child){
+    margin-right: 15px;
+}

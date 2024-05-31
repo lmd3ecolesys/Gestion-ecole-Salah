@@ -1,0 +1,14 @@
+*{
+    list-style: none;
+   
+}
+
+
+.elementor-element .elementor-widget-container {
+background:3s;
+ border :3s;
+ border-radius :3s;
+box-shadow :3s;
+transform var(--e-transform-transition-duration, .4s);
+}
+
